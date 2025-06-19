@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="shiva computer">
+    <meta name="description" content="this is a profile page and he is full stack deveploment">
+    <meta name="author" content="shiva">
+    <meta http-equiv="refresh" content="10" url="http://localhost:8080/DAy-9">
+    <meta name="robots" content="index, follow">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Shiva profile</h1>
+    </header>
+    <main>
+        <!--Personal Information-->
+        <section>
+            <h2>Personal Information</h2>
+            <img src="images/shiva.jpg" alt="">
+            <p><strong>Name : </strong>shiva</p>
+            <p><strong>Branch : </strong>computer science</p>
+            <p><strong>college : </strong>Malla Reddy University</p>
+            <p><strong>Year : </strong>3rd</p>
+        </section>
+        <section>
+            <h3>Academic performance</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Subjects</th>
+                        <th>SGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1st</td>
+                        <td>Maths, English, Python</td>
+                        <td>9.0</td>
+                    </tr>
+                </tbody>
+                                <tbody>
+                    <tr>
+                        <td>2nd</td>
+                        <td>Ap, DSA, C++</td>
+                        <td>9.5</td>
+                    </tr>
+                </tbody>
+                                <tbody>
+                    <tr>
+                        <td>3rd</td>
+                        <td>Os, Java, BEE</td>
+                        <td>9.8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>Technical Skill</h3>
+            <ul>
+                <li><strong>Operating System : </strong>Window,linux</li>
+                <li><strong>Language : </strong>Java,Python,C++</li>
+                <li><strong>Front-End : </strong>html,Css,javascript</li>
+                <li><strong>Server Frame : </strong>React,Angular</li>
+                <li><strong>DBMS : </strong>Mangoo,Sql</li>
+            </ul>
+        </section>
+        <section>
+            <h2>hobbies & Intersets</h2>
+            <ol>
+                <li>Music</li>
+                <li>Watching Movies</li>
+                <li>Shuttle</li>
+                <li>Walking</li>
+                <li>Sleepling</li>
+            </ol>
+         </section>
+         <section>
+             <form>
+            <h2>Contact</h2>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="">
+            </div>
+            <div class="form-g">
+                <label>When to call back</label>
+                <input type="datetime-local" name="callbackdate" id="date">
+            </div>
+            <div class="form-g">
+                <label for="contactnumber">Contact Number</label>
+                <input type="number" name="number" placeholder="Enter the number">
+            </div>
+            <div class="form-g">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" rows="5">
+                </textarea>
+            </div>
+            <div class="form-g">
+                <label for="linkedin">Linked profile url :</label>
+                <input type="text" name="url" id="url">
+            </div>
+            <input type="submit">
+
+        </form>
+         </section>
+    </main>
 </body>
 </html>
